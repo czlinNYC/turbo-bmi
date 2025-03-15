@@ -1,0 +1,34 @@
+.dark-grey {
+	color: #404040;
+}
+
+.dark-grey-back {
+	background-color: #404040;
+}
+
+.off-white {
+	color: #ebeff3;
+}
+
+.off-white-background {
+	background-color: #ebeff3;
+}
+
+.theme-red {
+	color: #e83c4a;
+}
+
+.theme-red-back {
+	color: #e83c4a;
+}
+
+.aqua-input {
+	color: #e0ebf6;
+}
+
+.black {
+	color: black;
+}
+.bold {
+	font-weight: bold;
+}

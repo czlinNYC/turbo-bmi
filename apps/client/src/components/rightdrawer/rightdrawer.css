@@ -1,0 +1,26 @@
+#right-drawer {
+	min-width: 350px;
+	background-color: #302c31;
+	color: white;
+}
+
+#rd-header {
+	display: flex;
+	justify-content: space-between;
+	font-size: 32pt;
+	padding: 20px;
+	align-items: center;
+}
+#rd-content {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 100%;
+}
+.rd-content-item {
+	margin-left: 20px;
+}
+
+#rd-logout {
+	margin-bottom: 40px;
+}

@@ -1,0 +1,138 @@
+#core-display {
+	width: 100% !important;
+	margin-top: 2px;
+	overflow-y: auto;
+}
+#core-body {
+	margin: 5px;
+}
+
+#profile-pic {
+	height: 78px;
+	width: 78px;
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+	font-size: 30pt;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 39px;
+}
+
+#username-title {
+	font-size: 28pt;
+	margin-left: 30px;
+}
+#edit-form-container {
+	background-color: white;
+	margin: 5px;
+	border-radius: 8px;
+	border: 1px solid lightgrey;
+	overflow: auto;
+}
+
+#entity-header-container {
+	margin: 15px;
+}
+#entity-edit-menu {
+	box-shadow: 0 2px 2px lightgrey;
+	padding-bottom: 5px;
+}
+.entity-edit-menu-item {
+	margin-left: 30px;
+	font-weight: normal;
+	border-bottom: 1px solid lightgrey;
+}
+#entity-edit-form {
+	margin-left: 130px;
+	margin-right: 130px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.form-input-label {
+	font-size: 14px;
+	margin-top: 10px;
+}
+.form-input {
+	align-items: center;
+	font-size: 17px;
+	margin-top: 5px;
+	width: 100%;
+	padding-left: 10px;
+}
+.form-input-fixed {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 17px;
+	width: auto;
+	margin-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 20px;
+	background-color: lightgray;
+	border-radius: 5px;
+}
+#form-button-row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: lighter;
+}
+.form-button:hover {
+	cursor: pointer;
+}
+
+.selected-subview {
+	color: grey;
+}
+.flex-four {
+	flex: 0 0 25%;
+}
+.note-card {
+	border: 1px solid grey;
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 5px;
+}
+#note-container {
+	max-width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.note {
+	margin-top: 5px;
+	margin-left: 50px;
+}
+.note-date {
+	margin-right: 50px;
+	margin-bottom: 5px;
+	text-align: right;
+}
+#input-note-container {
+	display: flex;
+	flex-direction: column;
+}
+#input-note {
+	width: 500px;
+	margin-left: 10px;
+	margin-right: 5px;
+	align-self: end;
+	border-radius: 5px;
+}
+#submit-note {
+	width: 170px;
+	align-self: end;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	border-radius: 5px;
+	border: solid 1px grey;
+	background-color: lightgray;
+}
+/* 
+bulk upload css starts here
+*/

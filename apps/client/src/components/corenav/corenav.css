@@ -1,0 +1,52 @@
+#core-nav {
+	height: 50px;
+	background-color: white;
+	justify-content: space-between;
+	box-shadow: 0px 2px 2px lightgrey;
+}
+.core-nav-title {
+	font-size: 21pt;
+	font-weight: lighter !important;
+	padding-left: 25px;
+}
+
+.core-nav-button {
+	display: flex;
+	border: none;
+	border-radius: 5px;
+	justify-content: space-between;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	margin-right: 30px;
+	border: 1px solid lightgrey;
+}
+
+#back-page {
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 20px 5px 5px 20px;
+	border: 1px solid darkgray;
+}
+#forward-page {
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px 20px 20px 5px;
+	border: 1px solid darkgray;
+}
+.page-button {
+	height: 22px;
+}
+.button-content {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.core-nav-button:hover {
+	cursor: pointer;
+}
+#page-button-container {
+	margin-left: 30px;
+}

@@ -1,0 +1,8 @@
+#landing-container {
+	height: 100vh;
+	width: 100vw;
+	max-width: 100vw;
+}
+#sub-body {
+	overflow-y: auto;
+}

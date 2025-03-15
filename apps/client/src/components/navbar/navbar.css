@@ -1,0 +1,25 @@
+#navbar {
+	min-width: 68px !important;
+	background-color: black;
+	/* box-shadow: 5px 8px 0 white; */
+}
+
+.material-symbols-outlined {
+	color: red;
+	font-variation-settings:
+		'FILL' 0,
+		'wght' 100,
+		'GRAD' -25,
+		'opsz' 24;
+}
+
+.navbar-icon-box {
+	height: 58px;
+	color: white;
+	font-size: 11.5px;
+	margin-bottom: 14px;
+}
+
+.navbar-icon-box:hover {
+	background-color: #302c31;
+}

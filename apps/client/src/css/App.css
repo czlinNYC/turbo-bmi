@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	color: black;
+	min-height: 100vh;
+	height: 100vh;
+	min-width: 100%;
+	width: 100%;
+	font-size: 14pt;
+}
+
+.tilt {
+	font-family: 'Tilt Warp', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+}
+.bela {
+	font-family: 'Belanosima', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* .zain {
+  font-family: "Zain", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+} */
+.zain {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: -0.5px;
+}
+#root {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	color: black;
+	min-height: 100vh;
+	height: 100vh;
+	min-width: 100%;
+	width: 100%;
+}
+
+.main-color {
+	color: darkgrey;
+	background-color: black;
+}
+
+.second-color {
+	color: darkgrey;
+	background-color: black;
+}
+
+#view-container {
+	height: 100vh;
+	min-height: 100vh;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.title {
+	font-size: 54pt;
+}
+
+.default-size {
+	font-size: 14pt;
+}
+
+.material-symbols-sharp {
+	font-variation-settings:
+		'FILL' 0,
+		'wght' 100,
+		'GRAD' -25,
+		'opsz' 0;
+	color: white;
+	font-size: 38px !important;
+}
+.material-symbols-sharp:hover {
+	cursor: pointer;
+}
+.small-icon {
+	font-size: 20px !important;
+}
+
+.medium-icon {
+	font-size: 30px !important;
+}
+
+.big-icon {
+	font-size: 40px !important;
+}
+.large-icon {
+	font-size: 60px !important;
+}
+textarea:focus,
+input:focus {
+	outline: none;
+}
+.text-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.hidden {
+	visibility: none;
+}
+
+input[readonly] {
+	pointer-events: none;
+}

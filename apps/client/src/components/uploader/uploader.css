@@ -1,0 +1,164 @@
+.upload-button {
+	font-size: 14pt;
+	margin: 20px;
+	font-weight: 300;
+	border: 1px solid darkgray;
+	background-color: lightgray;
+	border-radius: 25px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 28px;
+}
+#upload-control {
+	justify-content: space-between;
+}
+
+#upload-button-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#upload-sort {
+	justify-content: space-between;
+}
+.upload-column {
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid darkgrey;
+	margin: 5px;
+}
+.column-card {
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+	border-radius: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin: 7px;
+	font-size: 11pt;
+}
+.pair-holders {
+	flex-wrap: wrap;
+}
+.pair-holders span {
+	padding-left: 25px;
+}
+.pairing-header {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.pairing-header span {
+	font-size: 16pt;
+	border-bottom: 1px solid darkgrey;
+}
+.upload-highlighted {
+	background-color: darkgrey !important;
+}
+#pair-button {
+	color: white;
+	background-color: black;
+	font-size: 14pt;
+	border-radius: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+}
+.pair-container {
+	/* display: flex !important; */
+	border: 1px solid darkgrey;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+#pairs-container {
+	flex-wrap: wrap;
+}
+
+.column-card-header {
+	font-size: 10px;
+	margin-left: 5px;
+	margin-bottom: -7px;
+}
+
+.final {
+	font-size: 12px;
+}
+#pairing-section {
+	padding-bottom: 5px;
+}
+
+#info-section {
+	font-size: 12px;
+	margin-right: 25px;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+	margin-left: 7px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: gray;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: '';
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+input:checked + .slider {
+	background-color: black;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px darkgrey;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+.toggle-box {
+	margin: 10px;
+}

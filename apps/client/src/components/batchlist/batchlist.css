@@ -1,0 +1,49 @@
+#batch-management-form {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+#bm-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+#bm-list {
+	display: flex;
+	flex-direction: column;
+}
+#bm-list-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.bm-list-card {
+	display: flex;
+	flex-direction: row;
+	border-radius: 7px;
+	justify-content: space-evenly;
+	width: 100%;
+	border: 1px solid grey;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+.selected {
+	background-color: grey;
+}
+#bm-title {
+	font-size: 24pt;
+}
+.bm-list-container {
+	display: flex;
+	flex-direction: column;
+}
+.bm-button {
+	border-radius: 15px;
+	font-size: 12pt;
+	background-color: black;
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	max-height: 30px;
+}

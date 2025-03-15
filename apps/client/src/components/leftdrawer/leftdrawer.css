@@ -1,0 +1,52 @@
+#left-drawer {
+	height: 100%;
+	min-width: 270px !important;
+	color: white;
+	background-color: black;
+	flex-grow: 0;
+}
+
+#ld-search {
+	background-color: #302c31;
+	height: 58px;
+	width: 100%;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+#ld-title-box {
+	height: 56px;
+	margin: 20px;
+	color: white;
+}
+
+#ld-menu-box {
+	width: 100%;
+	color: white;
+}
+
+#ld-searchcont {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#ld-input {
+	background-color: #302c31;
+	border: 0px;
+}
+#ld-input:focus {
+	color: white;
+}
+#ld-title-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#ld-section-title {
+	font-size: 24px;
+}

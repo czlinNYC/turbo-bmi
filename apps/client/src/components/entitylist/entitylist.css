@@ -1,0 +1,74 @@
+.data-card {
+	display: flex;
+	margin: 2px;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid white;
+}
+
+.data-first {
+	padding-left: 20px;
+	flex: 1;
+}
+.data-last {
+	padding-right: 20px;
+	flex: 4;
+}
+.datapoint-display {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 11pt;
+	flex: 4;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 22px;
+	white-space: nowrap;
+}
+.column-title {
+	font-size: 14pt;
+	font-weight: 500;
+	color: rgb(96, 95, 95);
+}
+.selected {
+	background-color: lightgrey !important;
+	border: 1px solid darkgrey !important;
+}
+.time-box {
+	display: flex;
+	flex-direction: column;
+	font-size: 9pt;
+	justify-content: space-evenly;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.time-box-text {
+	/* padding-top: 10px;
+	padding-bottom: 10px; */
+	font-size: 9pt;
+}
+
+.list-dot {
+	height: 15px;
+	width: 15px;
+	border: 1px black;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+.black-dot {
+	background-color: black;
+}
+
+.red-dot {
+	background-color: red;
+}
+.blue-dot {
+	background-color: blue;
+}
+.green-dot {
+	background-color: green;
+}
+.yellow-dot {
+	background-color: yellow;
+}

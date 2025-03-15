@@ -1,0 +1,48 @@
+#profile-nav {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	color: whitesmoke;
+	height: 50px;
+	width: 100%;
+	box-shadow: 0px 2px 2px lightgrey;
+}
+
+.prof-nav-icon-box {
+	height: 50px;
+	width: 50px;
+	color: black;
+}
+
+.prof-nav-icon-box:hover {
+	background-color: lightgrey;
+}
+
+#prof-nav-box-cont {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.prof-nav-button {
+	height: 32px;
+	padding: 0px 20px 0px 20px;
+	border-radius: 40px;
+	margin: 0px 20px 0px 20px;
+	font-size: 18px;
+	color: white;
+	background-color: black;
+}
+
+#prof-nav-title {
+	font-size: 20pt;
+	color: black;
+	padding-left: 30px;
+	display: flex;
+	align-items: center;
+}
+
+#prof-picture {
+	max-width: 40px;
+	max-height: 40px;
+	border-radius: 40px;
+}
